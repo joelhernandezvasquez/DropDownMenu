@@ -1,0 +1,95 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body a, body button {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+body a:hover, body button:hover {
+  background: #dddddd;
+}
+
+body header {
+  height: 100px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body header ul {
+  width: 1000px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header ul .sub-nav {
+  position: relative;
+}
+
+body header ul .sub-nav button {
+  border: none;
+  background: white;
+  outline: none;
+  cursor: pointer;
+}
+
+body header ul .sub-nav button:hover {
+  background: #dddddd;
+}
+
+body header ul .sub-nav .sub-nav-content {
+  background: #dddddd;
+  width: 180px;
+  height: 200px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+}
+
+body header ul .sub-nav .sub-nav-content a {
+  font-size: 1.2rem;
+  padding: 10px 15px;
+}
+
+body header ul .sub-nav .sub-nav-content a:hover {
+  background: #f7f5f5;
+}
+
+body header ul .sub-nav .sub-nav-content a:last-child {
+  margin-top: 20px;
+}
+
+body header ul .sub-nav .sub-nav-content.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
