@@ -92,4 +92,31 @@ body header ul .sub-nav .sub-nav-content.show {
   display: -ms-flexbox;
   display: flex;
 }
+
+body .banner-container {
+  width: 50%;
+  background: #c347c3;
+  position: relative;
+  margin-left: 20px;
+  padding: 20px;
+  height: 300px;
+}
+
+body .banner-container .banner {
+  max-width: 900px;
+  margin: auto;
+  position: absolute;
+}
+
+body .banner-container .banner .banner-content h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+body .banner-container .banner .banner-content p {
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+}
 /*# sourceMappingURL=style.css.map */

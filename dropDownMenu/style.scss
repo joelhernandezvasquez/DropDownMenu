@@ -88,4 +88,34 @@
         }
 
     }
+
+    .banner-container{
+        width:50%;
+        background:rgb(195, 71, 195);
+        position: relative;
+        margin-left:20px;
+        padding:20px;
+        height:300px;
+
+        .banner{
+            max-width: 900px;
+            margin:auto;
+            position: absolute;
+            
+
+            .banner-content
+            {
+                h1{
+                    color:white;
+                    font-size: 2.5rem;
+                }
+                p{
+                    padding:0.7rem;
+                    font-size: 1.1rem;
+                    color:white;
+                    line-height:1.6;
+                }
+            }
+        }
+    }
 }
